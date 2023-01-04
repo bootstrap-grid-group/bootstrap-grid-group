@@ -1,14 +1,14 @@
-#big-red-circle {
+.red-circle {
     background-color: #E6563B;
 }
 
-#big-yellow-circle{
+.yellow-circle{
     background-color: #EB9D3A;
 }
-#big-green-circle{
+.green-circle{
     background-color: #7CB06C;
 }
-#big-blue-circle{
+.blue-circle{
     background-color: #00ABA9;
 }
 
@@ -24,6 +24,19 @@
     border: 8px solid white;
 }
 
+.little-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: .5em;
+    height: .5em;
+    padding: .8em;
+    color: black;
+    font-family: Anton;
+    margin: 4px;
+}
+
 
 body {
     background-color: #F0F0F0;
@@ -32,4 +45,8 @@ body {
 img{
     border: solid .5em;
     border-color: #E6E6E6;
+}
+
+.images {
+    padding: 0;
 }
