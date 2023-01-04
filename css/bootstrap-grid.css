@@ -2,8 +2,28 @@
     background-color: #E6563B;
 }
 
-#big-white-circle {
+#big-yellow-circle{
+    background-color: #EB9D3A;
 }
+#big-green-circle{
+    background-color: #7CB06C;
+}
+#big-blue-circle{
+    background-color: #00ABA9;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    width: 1em;
+    height: 1em;
+    padding: 3em;
+    color: white;
+    border: 8px solid white;
+}
+
 
 body {
     background-color: #E6E6E6;
