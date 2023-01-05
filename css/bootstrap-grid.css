@@ -12,6 +12,9 @@
     background-color: #00ABA9;
 }
 
+.navbar-brand {
+    border: none;
+}
 .circle{
     display: flex;
     justify-content: center;
@@ -43,9 +46,12 @@
 
 .lil-pictures-block {
     padding: 1em 1.5em;
+    margin-bottom: 3em;
 }
 
-
+.d-inline-block {
+    margin-left: 20px;
+}
 body {
     background-color: #F0F0F0;
 }
