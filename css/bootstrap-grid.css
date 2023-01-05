@@ -37,6 +37,14 @@
     margin: 4px;
 }
 
+.big-pictures-block {
+    padding: 2em 1.5em;
+}
+
+.lil-pictures-block {
+    padding: 1em 1.5em;
+}
+
 
 body {
     background-color: #F0F0F0;
