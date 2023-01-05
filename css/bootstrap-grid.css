@@ -60,3 +60,9 @@ img{
 .images {
     padding: 0;
 }
+
+
+.lil-images{
+    width: 8em;
+    height: 6em;
+}
